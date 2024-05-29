@@ -1,0 +1,70 @@
+.mini-img{
+    column-gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.moto{
+    width: auto;
+    height: auto;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hello{
+    /*width: 250px;
+    height: 100%;
+    text-align:left;
+    border: 1px solid red;
+    box-shadow: 0 0 18px #aaa;
+    border-radius: 10px;*/
+    margin-top: 30px;
+    font-size: 20px;
+    display: flex;
+    font-style: italic;
+    margin-left: 10px;
+}
+.principal01{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-right: 20px;
+    flex-direction: column;
+    padding: 10px;
+    display: flex;
+    box-shadow: 0 0 18px #aaa;
+}
+.oii{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.valor{
+    color: red;
+    font-size: 20px;
+}
+.ultimo{
+    margin: 0 auto;
+    max-width: 1024px;
+    text-decoration: none;
+}
+.services.services-k2ga .main-title {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding: 55px 0;
+    color: #222;
+}
+.ultimo01{
+    display: flex;
+    list-style: none; 
+    border-radius: 10px;
+    line-height:25px;
+    margin: 0;
+    box-shadow: 0 0 20px #aaa;
+    padding-right:20px;
+    font-size: 17px;
+    border-bottom: 1px solid red;
+    column-gap: 50px;
+}
+

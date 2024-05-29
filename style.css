@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.lista-card{
+    display:flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    column-gap: 30px;
+    row-gap: 30px;
+    display: flex;
+    margin: 30px;
+    font-size: large;
+}
+
+.card{
+    border: 1px solid #868686;
+    align-items: center;
+    border-radius: 10px ;
+    box-shadow: 6px 6px 8px rgba(146,146,146,146);
+    flex-direction:column;
+    padding: 10px;
+    width: 250px;
+    display:flex;
+}
+
+.semDesconto{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+/*.textos{
+    /*justify-content: space-between;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}*/
+
+.grupo-img{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.moto{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grupo-img:hover{
+    transform: scale(1.35);
+    transition: transform 0.3s ease;
+}
+
+.hello {
+    /*display: block;*/
+    text-align: right;
+    line-height:100%;
+    margin-top: 30px; 
+}
+
+.navBar{
+    display: flex;
+    flex-direction: column;  
+}
+
+.logo{
+    max-width:50px;
+    max-height:50px;
+    margin-top: 20px;
+    height: 80px;
+    display: flex;   
+}
+
+.btn{ 
+    background: #f5f5f5 ;
+    color: #c00;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;  
+}
+
+.butao{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    text-align: center;
+}
+
+.local{
+    display: flex;
+    padding-top: 50px;
+}
+
+.links{
+    width: 20px;
+    list-style: none;
+    padding-left: 0%;
+    line-height:30px;
+    width: 20px;
+    height: 100px;
+    margin: 0px;  
+}
+
+.oii{
+    justify-content:space-between;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 20px;
+    border-bottom: 1px solid red;
+}
+
+.service{
+    border-top:1px solid #c00;
+    display: flex;
+    text-indent:250px;
+    margin-left: 0%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style: none;  
+}
+
+.service li a{
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;  
+}
